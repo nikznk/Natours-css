@@ -1,0 +1,22 @@
+*(universal selector)will target all elements in the file.
+* {
+    margin: 0;
+    padding: 0;//removes browser margin and padding
+    box-sizing: border-box; 
+}
+______________________________________
+
+height: 90vh--- Height of the element should be 90% 
+of the viewport height 
+
+Background-image: linear-gradient(to right bottom,--- linergradient is used to go from one colour to another and can spectfy when will it go(top,bottom,left)
+ rgba(126, 213, 111, 0.8),--to change the opacity
+ rgba(40, 100, 131, 0.8)) url();
+
+ Background-size:cover--- whatever the size of viewport is 
+ it will aways try to fit the element
+
+ Background-position: top;------ image will always same on top and not crop 
+ when changing the viewport
+
+clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); --- define cordinates and make a design(to make deisgn clippy.com)
